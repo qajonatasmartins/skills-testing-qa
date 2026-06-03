@@ -1,0 +1,1 @@
+Teste de Tabela de Decisão (Decision Table Testing): Excelente para capturar e documentar regras de negócios complexas. Utiliza tabelas que cruzam combinações de condições de entrada com as ações esperadas do sistema

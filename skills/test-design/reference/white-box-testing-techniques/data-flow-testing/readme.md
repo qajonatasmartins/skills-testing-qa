@@ -1,0 +1,1 @@
+Teste de Fluxo de Dados (Data Flow Testing): Avalia o ciclo de vida das variáveis do programa — onde elas são criadas (definidas), utilizadas e destruídas. É altamente eficaz para detectar erros de lógica, como variáveis que são usadas antes mesmo de receberem um valor

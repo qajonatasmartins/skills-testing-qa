@@ -1,0 +1,1 @@
+Teste de Valor Limite (Boundary Value Testing): Foca no teste das bordas ou limites das classes de equivalência, partindo da premissa de que a maior parte dos defeitos se esconde exatamente nos limites dos dados

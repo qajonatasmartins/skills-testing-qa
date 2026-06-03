@@ -1,0 +1,1 @@
+Teste de Decisão / Ramificação: Cria fluxos que passam pelos diversos resultados de pontos de decisão no código, como os caminhos que respondem "verdadeiro" e "falso" para comandos "IF". Para que serve: É uma medida mais robusta que o teste de instrução e serve para garantir a detecção de anomalias que fiquem esquecidas em desvios lógicos condicionais.

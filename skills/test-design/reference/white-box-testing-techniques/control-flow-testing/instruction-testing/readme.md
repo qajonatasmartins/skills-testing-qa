@@ -1,0 +1,1 @@
+Teste de Instrução: Foca em modelar casos de teste para exercitar as linhas de instrução de código executáveis. Para que serve: Garante que todo o código escrito foi percorrido pelo menos uma vez durante os testes, detectando falhas escondidas em blocos que não são chamados rotineiramente
