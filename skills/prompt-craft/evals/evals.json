@@ -1,0 +1,44 @@
+{
+  "skill_name": "prompt-craft",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Preciso de um prompt pra IA me ajudar a escrever testes automatizados pro meu projeto Node.js com Jest. Tenho uma API REST com 15 endpoints e zero testes hoje.",
+      "expected_output": "Prompt otimizado usando técnica adequada (provavelmente PTF ou PEPE) com papel de especialista em testes, tarefa clara de criar testes Jest para API REST, formato estruturado",
+      "files": [],
+      "expectations": [
+        "A saída inclui resumo das 7 dimensões (objetivo, público, contexto, formato, complexidade, exemplos, restrições)",
+        "A técnica recomendada é justificada com 2-3 frases ligadas às dimensões",
+        "O prompt final está em bloco de código copiável e autocontido",
+        "O prompt final menciona Jest, API REST e contexto Node.js",
+        "A técnica escolhida é PEPE, PTF ou CARE (framework estruturado adequado a geração de testes)"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Quero que a IA analise um trecho de código TypeScript e me diga os problemas de segurança. Preciso que ela pense passo a passo porque o código é complexo e tem várias camadas.",
+      "expected_output": "Prompt otimizado usando Chain-of-Thought ou PEPE, com raciocínio passo a passo explícito, foco em segurança, formato de relatório estruturado",
+      "files": [],
+      "expectations": [
+        "A saída inclui resumo estruturado das dimensões coletadas",
+        "A técnica recomendada envolve raciocínio passo a passo (PEPE, Chain-of-Thought ou combinação explícita)",
+        "O prompt final exige análise de segurança em TypeScript",
+        "O prompt final está em bloco de código autocontido",
+        "O formato de saída do prompt é relatório estruturado (severidade, categoria OWASP ou equivalente)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Me ajuda a criar um prompt pra IA gerar um plano de estudo personalizado. O aluno é iniciante em engenharia de software e tem 2 horas por dia pra estudar durante 3 meses.",
+      "expected_output": "Prompt otimizado usando TAO ou PME, com contexto do aluno, restrições de tempo, formato de cronograma/plano estruturado",
+      "files": [],
+      "expectations": [
+        "A saída inclui resumo das dimensões com restrição de tempo (2h/dia, 3 meses) e nível iniciante",
+        "A técnica recomendada é TAO, PME ou framework orientado a objetivo/planejamento",
+        "O prompt final pede cronograma ou plano estruturado por semanas/módulos",
+        "O prompt final está em bloco de código copiável",
+        "O prompt final é autocontido sem depender de contexto da conversa de construção"
+      ]
+    }
+  ]
+}

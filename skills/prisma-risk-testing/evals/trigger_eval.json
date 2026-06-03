@@ -1,0 +1,82 @@
+[
+  {
+    "query": "preciso priorizar o que testar no épico de split de pagamento, temos só 1 sprint e muitos AC no clickup",
+    "should_trigger": true
+  },
+  {
+    "query": "monta matriz de impacto e probabilidade pro módulo de estoque antes da release",
+    "should_trigger": true
+  },
+  {
+    "query": "risk based testing no fluxo de cancelamento de pedido — o que é must test?",
+    "should_trigger": true
+  },
+  {
+    "query": "squeeze total amanhã deploy do checkout, me diz o que rodar hoje com 4h de QA",
+    "should_trigger": true
+  },
+  {
+    "query": "good enough testing pra liberar o PDV com os bugs conhecidos de cupom",
+    "should_trigger": true
+  },
+  {
+    "query": "aplica PRISMA no épico 86dznz3nu com PO e arquiteto pra scoring",
+    "should_trigger": true
+  },
+  {
+    "query": "MR só mexeu em autenticação oauth, quero abordagem diferenciada rápida sem workshop",
+    "should_trigger": true
+  },
+  {
+    "query": "encontramos 3 bugs críticos em PIX depois da matriz — recalcula likelihood",
+    "should_trigger": true
+  },
+  {
+    "query": "product risk do carrinho + cupom na release semanal zig-pdv",
+    "should_trigger": true
+  },
+  {
+    "query": "quadrante must test vs won't test pro time entender o que fica de fora",
+    "should_trigger": true
+  },
+  {
+    "query": "gera casos de teste no clickup no formato TEMPLATE_CT pro fluxo de transferência",
+    "should_trigger": false
+  },
+  {
+    "query": "analisa o MR 4447 do android e cruza com testes existentes na lista 901704596262",
+    "should_trigger": false
+  },
+  {
+    "query": "aplica heurística VADER no endpoint de criação de usuário",
+    "should_trigger": false
+  },
+  {
+    "query": "health check do board clickup da squad mobile",
+    "should_trigger": false
+  },
+  {
+    "query": "domain story em plantuml do processo de devolução AS-IS",
+    "should_trigger": false
+  },
+  {
+    "query": "estratégia de testes upstream no refinamento da story sem código ainda",
+    "should_trigger": false
+  },
+  {
+    "query": "PRISMA statement checklist systematic review artigo pubmed",
+    "should_trigger": false
+  },
+  {
+    "query": "openapi 3.0 do serviço de notificações a partir do código",
+    "should_trigger": false
+  },
+  {
+    "query": "bug tracker dos defeitos abertos da lista X no slack",
+    "should_trigger": false
+  },
+  {
+    "query": "particionamento de equivalência pro campo CPF do cadastro",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,1 @@
+- escrever o caso de teste seguindo template via ditado.

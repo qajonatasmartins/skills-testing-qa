@@ -1,0 +1,23 @@
+{
+  "skill_name": "domain-storytelling-plantuml",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Preciso de uma domain story em PT-BR do processo 'check-in de hóspede no hotel', AS-IS, granularidade PURA. Tenho: recepcionista, hóspede, chave física, ficha de registo. Não quero sistemas. Gera o relatório completo com bloco PlantUML usando a biblioteca DomainStory.",
+      "expected_output": "Markdown com granularidade pura; narrativa numerada; @startuml com !include DomainStory; Person para recepcionista e hóspede; objetos de trabalho; sem System; activity com passos sequenciais.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Storytelling de domínio: fluxo de aprovação de reembolso no e-commerce, granularidade FINA, com ramo aprovado/recusado. Atores: cliente, financeiro, sistema de pagamentos como System. Entrega PlantUML + texto.",
+      "expected_output": "Granularidade fina; System para pagamentos; narrativa com exceção; PlantUML com Boundary opcional e múltiplas activity.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Só desenha um flowchart Mermaid do mesmo processo de reembolso, não quero PlantUML.",
+      "expected_output": "Recusa Mermaid como substituto do entregável principal; explica que a skill entrega DomainStory em PlantUML; oferece gerar .puml ou, se o utilizador insistir só em Mermaid, entrega Mermaid como anexo secundário sem deixar de fornecer PlantUML DomainStory como primário — conforme SKILL.md.",
+      "files": []
+    }
+  ]
+}

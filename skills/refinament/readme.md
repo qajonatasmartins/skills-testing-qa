@@ -1,0 +1,2 @@
+- criar skill que usa algumas heuristicas para entender a story gerar perguntas com base no contexto. pedir para o QA ensinar e dar um contexto produto e como é uso hoje ou se é novo, se novo pegar figma
+- 

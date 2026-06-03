@@ -1,0 +1,1 @@
+- Le o figma da atividade para contextualizar o projeto. criar uma skill no setup para ajudar ao QA a pegar a api key e configurar a maquina para usar o figma.

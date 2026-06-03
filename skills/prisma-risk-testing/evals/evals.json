@@ -1,0 +1,73 @@
+{
+  "skill_name": "prisma-risk-testing",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tenho o épico de pagamento PIX no ClickUp (86abc123) e 2 semanas de teste. Critérios de aceite: geração QR, confirmação assíncrona, estorno parcial, timeout 30s. Monta a matriz PRISMA completa com as 6 fases — posso trazer PO e dev sênior para scoring.",
+      "expected_output": "Relatório markdown com risk items (≤35), fatores Impacto/Likelihood, scoring, matriz em 4 quadrantes (Must/Should/Could/Won't), issue list, abordagem diferenciada, resumo stakeholders e good enough testing; menção às 6 fases; salvar em output/prisma/.",
+      "files": [],
+      "assertions": [
+        {
+          "name": "contains_risk_items_table",
+          "description": "Output includes a risk items table with RI- IDs"
+        },
+        {
+          "name": "contains_four_quadrants",
+          "description": "Output classifies items into Q I-IV or Must/Should/Could/Won't Test"
+        },
+        {
+          "name": "contains_differentiated_approach",
+          "description": "Output includes differentiated test approach per quadrant or item"
+        },
+        {
+          "name": "distinguishes_product_risk",
+          "description": "Output frames product risk (not systematic review PRISMA)"
+        },
+        {
+          "name": "stakeholder_summary",
+          "description": "Output includes stakeholder-oriented summary"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "MR alterou só o módulo de autenticação no zig-api — JWT refresh, logout em todos os dispositivos e rate limit no login. Preciso rápido: risk items e abordagem diferenciada PRISMA, sem reunião de consenso.",
+      "expected_output": "Modo rápido: risk items derivados do MR, assumptions explícitas (QA simula negócio+técnico), matriz, abordagem por quadrante, seção ressalvas em vez de issue list formal.",
+      "files": [],
+      "assertions": [
+        {
+          "name": "fast_mode_documented",
+          "description": "Documents fast/solo QA mode with explicit assumptions"
+        },
+        {
+          "name": "auth_risk_items",
+          "description": "Risk items cover JWT refresh, logout, and/or rate limit"
+        },
+        {
+          "name": "matrix_and_approach",
+          "description": "Includes risk matrix and differentiated approach"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Release amanhã, squeeze total — mudou checkout, carrinho e cupom. O que testar HOJE com PRISMA? Só tenho 6 horas de QA.",
+      "expected_output": "Modo squeeze: risk items focados nos módulos tocados, priorização Q I (+ Q II críticos), ordem de execução do dia, riscos aceitos explicitamente para Q III/IV, resumo para stakeholders.",
+      "files": [],
+      "assertions": [
+        {
+          "name": "squeeze_mode",
+          "description": "Acknowledges time constraint and prioritizes for today"
+        },
+        {
+          "name": "q1_priority_list",
+          "description": "Lists Must Test / Q I items first with execution order"
+        },
+        {
+          "name": "accepted_risks",
+          "description": "Documents deferred or won't-test areas with explicit acceptance"
+        }
+      ]
+    }
+  ]
+}
