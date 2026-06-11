@@ -1,1 +1,0 @@
-Técnicas de Teste de Caixa Branca (White Box Testing Techniques) Essas técnicas analisam a estrutura interna, os caminhos do código e a implementação do software em si, exigindo habilidades de programação por parte do testador

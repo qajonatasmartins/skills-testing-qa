@@ -1,1 +1,0 @@
-Teste de Fluxo de Controle (Control Flow Testing): Identifica os possíveis caminhos de execução através do código do programa e, a partir de grafos de fluxo, cria casos de teste para garantir a cobertura adequada de instruções e decisões

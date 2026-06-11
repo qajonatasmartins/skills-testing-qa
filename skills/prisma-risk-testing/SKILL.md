@@ -155,23 +155,6 @@ Use a estrutura completa de [references/template-matriz-risco.md](references/tem
 [checklist Bach]
 ```
 
----
-
-## Integração com Outras Skills
-
-| Skill | Quando cruzar |
-|-------|----------------|
-| [upstream-refinement-strategy](../upstream-refinement-strategy/SKILL.md) | Risk items = grupos de AC; PRISMA prioriza *o que* testar; upstream detalha *como* por camada |
-| [upstream-pre-refinement-brainstorm](../upstream-pre-refinement-brainstorm/SKILL.md) | Riscos de negócio do brainstorm alimentam fatores de Impacto |
-| [gitlab-merge-request-analysis](../gitlab-merge-request-analysis/SKILL.md) | MR fornece módulos alterados → fatores Mudanças, Complexidade, Interfaces |
-| [mr-test-coverage-strategy](../mr-test-coverage-strategy/SKILL.md) | Após matriz Q I: cruzar cobertura existente no ClickUp |
-| [heuristic-guide](../heuristic-guide/SKILL.md) | **Opcional:** para itens Q I/II, sugerir heurísticas (VADER, FAILURE, CRUD) no plano de casos — não substituir PRISMA |
-| [release-test-strategy](../release-test-strategy/SKILL.md) | Release semanal: usar PRISMA para priorizar dentro da estratégia de release |
-
-**Ordem sugerida upstream:** brainstorm → refinement strategy → **prisma-risk-testing** → criação de CTs.
-
----
-
 ## Modo Squeeze (release iminente)
 
 Quando o usuário indicar pouco tempo ou release amanhã:

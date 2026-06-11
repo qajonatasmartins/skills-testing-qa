@@ -1,1 +1,0 @@
-Técnicas de Teste de Caixa Preta (Black Box Testing Techniques) Essas técnicas baseiam-se exclusivamente nos requisitos e nas especificações do sistema, sem a necessidade de conhecer a sua implementação ou estrutura interna

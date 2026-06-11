@@ -1,1 +1,0 @@
-Teste de Análise de Domínio (Domain Analysis Testing): Serve para identificar casos de teste quando múltiplas variáveis interagem e precisam ser testadas simultaneamente, generalizando os conceitos de equivalência e limite para cenários multidimensionais

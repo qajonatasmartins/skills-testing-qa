@@ -1,1 +1,0 @@
-Teste de Transição de Estado (State-Transition Testing): Ideal para sistemas que precisam armazenar um histórico do que aconteceu (estados) e reagir de maneira diferente a eventos dependendo do seu estado atual

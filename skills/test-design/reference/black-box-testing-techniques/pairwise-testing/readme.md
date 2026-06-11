@@ -1,1 +1,0 @@
-Teste em Pares (Pairwise Testing): Empregado quando o sistema tem muitas variáveis e a combinação de todas elas geraria um número impossível de testes. Ele foca em testar todas as combinações em pares, reduzindo drasticamente o esforço de teste

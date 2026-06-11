@@ -1,0 +1,1 @@
+para lembrar de add mcps aqui no projeto e como configurar e usar envs no MCP (arquivo)

@@ -1,1 +1,0 @@
-Teste de Classe de Equivalência (Equivalence Class Testing): Utilizado para reduzir o número de casos de teste a um tamanho gerenciável, agrupando os dados de entrada em conjuntos (classes) que o sistema deve processar da mesma maneira

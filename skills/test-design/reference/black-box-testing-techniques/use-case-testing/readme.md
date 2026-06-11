@@ -1,1 +1,0 @@
-Teste de Caso de Uso (Use Case Testing): Foca em testar as funcionalidades do sistema do início ao fim (de ponta a ponta), simulando cenários que descrevem a interação entre o usuário (ator) e o sistema
