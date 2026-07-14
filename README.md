@@ -35,7 +35,7 @@ Disponibiliza as skills apenas para quem abrir este projeto:
 
 ```bash
 mkdir -p .cursor/skills
-for skill in test-design test-verifier prisma-risk-testing domain-storytelling-plantuml prompt-craft; do
+for skill in test-flow-mapping test-design test-verifier prisma-risk-testing domain-storytelling-plantuml prompt-craft; do
   ln -s "$(pwd)/skills/$skill" ".cursor/skills/$skill"
 done
 ```
@@ -68,7 +68,9 @@ As skills se encaixam em um fluxo de QA, da priorização à validação final:
 
 ```mermaid
 flowchart LR
-  prisma[prisma-risk-testing] --> design[test-design]
+  flow[test-flow-mapping] --> prisma[prisma-risk-testing]
+  flow --> design[test-design]
+  prisma --> design
   domain[domain-storytelling-plantuml] --> design
   design --> verify[test-verifier]
   prompt[prompt-craft] -.-> design
@@ -76,15 +78,33 @@ flowchart LR
 
 Ordem sugerida:
 
-1. **prisma-risk-testing** — priorizar o que testar primeiro quando tempo e recursos são
+1. **test-flow-mapping** — no refinamento, mapear visualmente o que precisa ser testado
+   (fluxograma norteador com criticidade).
+2. **prisma-risk-testing** — priorizar o que testar primeiro quando tempo e recursos são
    limitados.
-2. **domain-storytelling-plantuml** — alinhar processo e domínio quando o requisito é
+3. **domain-storytelling-plantuml** — alinhar processo e domínio quando o requisito é
    ambíguo ou novo.
-3. **test-design** — derivar os casos e escrever os testes.
-4. **test-verifier** — gate de qualidade antes de declarar a tarefa pronta.
-5. **prompt-craft** — transversal; útil sempre que precisar montar um prompt reutilizável.
+4. **test-design** — derivar os casos e escrever os testes.
+5. **test-verifier** — gate de qualidade antes de declarar a tarefa pronta.
+6. **prompt-craft** — transversal; útil sempre que precisar montar um prompt reutilizável.
 
 ## Catálogo de skills
+
+### test-flow-mapping
+
+[`skills/test-flow-mapping/SKILL.md`](skills/test-flow-mapping/SKILL.md)
+
+- **O que faz:** transforma discussões em um fluxograma Mermaid do que precisa ser
+  testado — fluxo funcional com pontos de teste ou árvore de cenários — com criticidade
+  colorida pelos quadrantes PRISMA, mais ata da discussão e perguntas em aberto.
+- **Quando usar:** "fluxograma de testes", "mapear o que testar", "mapa de cobertura",
+  "anotar a reunião de refinamento", "norteador visual", "desenhar o fluxo da story".
+- **Modos:** entrevista guiada (4 dimensões), reunião ao vivo (anotações incrementais
+  com prévia sob demanda via `mostra o fluxo` e entrega via `fechar`) e texto pronto
+  (story/AC/transcrição).
+- **Saída:** relatório em `output/test-flow-mapping/[slug]-[YYYYMMDD].md` com diagrama,
+  tabela de cenários (`CN-xx`), perguntas em aberto e ata (modo reunião).
+- **Exemplo:** `@test-flow-mapping Vou entrar no refinamento da story de checkout, quero ir anotando`
 
 ### test-design
 
